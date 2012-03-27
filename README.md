@@ -55,7 +55,7 @@ Enqueue message that you want to send:
     Resque.enqueue(
       'Resque::Pigeon::DeliveryMethod::Postmark', {
         from: "from@email.com",
-        to: "to@emailcom",
+        to: "to@email.com",
         subject: "A very important e-mail",
         message: "A very important message."
       }
